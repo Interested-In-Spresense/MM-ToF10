@@ -1,0 +1,45 @@
+# Class
+MM-S50MVClass		KEYWORD1
+MM-S50MV			KEYWORD1
+
+# Constants
+ModeCommand			KEYWORD1
+LowSpeedCommand		KEYWORD1
+HighSpeedCommand	KEYWORD1
+DistanceCommand		KEYWORD1
+LedRedCommand		KEYWORD1
+LedGreenCommand		KEYWORD1
+LedBlueCommand		KEYWORD1
+StandbyCommand		KEYWORD1
+
+NomalMode			KEYWORD1
+SyncMode			KEYWORD1
+
+ShortDistance		KEYWORD1
+LongDistance		KEYWORD1
+
+LowSpeed			KEYWORD1
+HighSpeed			KEYWORD1
+
+PowerStandby		KEYWORD1
+PowerActive			KEYWORD1
+
+MMToF10_COLSIZE		KEYWORD1
+MMToF10_ROWSIZE		KEYWORD1
+MMToF10_PIXELS		KEYWORD1
+
+# Function
+begin			KEYWORD2
+end				KEYWORD2
+wakeup			KEYWORD2
+sleep			KEYWORD2
+sync			KEYWORD2
+skip			KEYWORD2
+search			KEYWORD2
+nomal			KEYWORD2
+led				KEYWORD2
+get1d			KEYWORD2
+get1p			KEYWORD2
+get3d			KEYWORD2
+get3p			KEYWORD2
+
