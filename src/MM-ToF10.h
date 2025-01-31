@@ -94,7 +94,7 @@ private:
   uint8_t buffer[MMToF10_DATA_SIZE];
   MMToF10_Mode m_mode;
   MMToF10_Distance m_dist;
-  MMToF10_Rate m_rate
+  MMToF10_Rate m_rate;
 
   void setMode(MMToF10_Mode mode);
   MMToF10_Mode getMode(){ return m_mode; }

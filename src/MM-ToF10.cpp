@@ -190,7 +190,7 @@ void MMToF10Class::get3d(float* ptr)
 void MMToF10Class::get3p(uint16_t* ptr)
 {
   get_data();
-  for ( int i = 4*8*4+10; i < ((MMToF10_PIXELS*sizeof(uint16_t)+MMToF10_PIXELS*sizeof(uint32_t)+OFFSET_3D); i += sizeof(uint16_t), ptr++ ) {
+  for ( int i = 4*8*4+10; i < ((MMToF10_PIXELS*sizeof(uint16_t)+MMToF10_PIXELS*sizeof(uint32_t)+OFFSET_3D)); i += sizeof(uint16_t), ptr++ ) {
     *ptr = ((buffer[i] << 8)|buffer[i+1]) / 0x10;
   }
   return;
